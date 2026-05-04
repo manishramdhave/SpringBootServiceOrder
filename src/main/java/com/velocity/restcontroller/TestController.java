@@ -11,8 +11,8 @@ public class TestController {
 	 * screen
 	 */
 
-	@GetMapping("/getData")
-	public String getData() {
-		return "This is executable jar";
+	@GetMapping("/getOrder")
+	public String getOrder() {
+		return "This is Order Page";
 	}
 }
